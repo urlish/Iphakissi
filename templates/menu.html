@@ -1,0 +1,45 @@
+<ion-side-menus enable-menu-with-back-views="false">
+
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <a class="button button-icon button-clear ion-search" href="#/app/search"></a>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content class="has-header">
+      <ion-list>
+        <ion-item class="item-icon-left" menu-close href="#/app/home">
+          <i class="icon ion-home"></i>
+          Articles Récents
+        </ion-item>
+             
+           
+        <ion-item class="item-icon-left" menu-close href="#/app/categories/grid">
+          <i class="icon ion-pricetags"></i>
+          Catégories
+        </ion-item>     
+        <ion-item class="item-icon-left" menu-close href="#/app/bookmark">
+          <i class="icon ion-bookmark"></i>
+          A lire plus tard
+        </ion-item>
+          
+        
+        <ion-item class="item-icon-left" menu-close ng-click="logout()" ng-show="isLogged">
+          <i class="icon ion-log-out"></i>
+          Déconnexion
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+
+</ion-side-menus>
