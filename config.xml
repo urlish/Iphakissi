@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.wassanu.dev.wpchroniques" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>wordpress</name>
+    <name>Iphakissi v.0</name>
     <description>
         Demo projet: Une application pour permettre à mes chers lecteur de lire mes chroniques sur leur Smartphone Android ou Ios.
     </description>
